@@ -1,7 +1,7 @@
 #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### 
 # Written by Heewon
-# Updated on December 24, 2022
-# App version: 0.2
+# Updated on January 01, 2024
+# App version: 0.3
 # (@'3(o.o);
 #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### 
 library(shiny)
@@ -19,6 +19,7 @@ class(iconSet) <- "leaflet_icon_set"
 
 ui <- bootstrapPage(
         tags$head(includeCSS("style.css")),
+        tags$head(HTML("<title>Numismous</title>")),
         tags$style(type = "text/css", "html, body {width:100%;height:100%}"),        
         leafletOutput("map", width = "100%", height = "100%"),
         absolutePanel(
@@ -36,7 +37,7 @@ ui <- bootstrapPage(
                 textOutput("numismCountry"),
                 uiOutput("numismWindow")
         ),
-        tags$div(id="cite", "© 2010-2023 Lootpiz | All Rights Reserved.")
+        tags$div(id="cite", "© 2010-2024 Lootpiz | All Rights Reserved.")
 )
 
 server <- function(input, output, session) {
