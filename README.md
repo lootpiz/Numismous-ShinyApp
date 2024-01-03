@@ -1,5 +1,5 @@
 # Numismous (The Hobby of Kings)
- * Shiny app running on https://numism.lootpiz.com/
+ * Shiny app running on https://lootpiz.shinyapps.io/numismous/
 
 ### About
  * Numismatics is the study of currency and/or paper money.
