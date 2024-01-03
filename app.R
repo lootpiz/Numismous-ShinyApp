@@ -58,7 +58,7 @@ server <- function(input, output, session) {
 
         output$map <- renderLeaflet({
                 leaflet(filteredData()) %>%                        
-                        addProviderTiles("Stamen.TerrainBackground") %>% # addProviderTiles(providers$Esri.WorldTopoMap)
+                        addProviderTiles(providers$Esri.WorldTopoMap) %>%
                         addMarkers(~Longitude, ~Latitude, icon = filteredIcon(), label = ~Country, labelOptions = labelOptions(textsize = "20px"), layerId = ~Folder)
         })
 
