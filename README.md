@@ -3,7 +3,7 @@
 
 ### About
  * Numismatics is the study of currency and/or paper money.
- * I coined the term *Numismous* to refer this unique Web and added suffix *-ous* to the Greek word *nomismat-* (stem of *nómisma*).
+ * I coined *Numismous* to refer to this unique Web and added suffix *-ous* to the Greek word *nomismat-* (stem of *nómisma*).
  
 ### Features
  * Provides a collection of the banknotes I have so far collected.
