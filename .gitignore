@@ -2,4 +2,5 @@
 **/.DS_Store
 *.code-workspace
 .vscode
+.ipynb_checkpoints
 rsconnect
