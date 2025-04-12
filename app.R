@@ -31,13 +31,13 @@ ui <- bootstrapPage(
                 h2("Numismous"),
                 pickerInput("selectContinent",
                         label = "Select a Continent:",
-                        choices = list("ALL", "Africa", "North/Central America", "South America", "Asia", "Oceania", "Europe", "Antarctica/Uncirculated notes"),
+                        choices = list("ALL", "Africa", "North/Central America", "South America", "Asia", "Oceania", "Europe", "Uncirculated"),
                         options = list(`live-search` = TRUE)
                 ),                
                 textOutput("numismCountry"),
                 uiOutput("numismWindow")
         ),
-        tags$div(id="cite", "© 2010-2024 Lootpiz | All Rights Reserved.")
+        tags$div(id="cite", "© 2010-2025 Lootpiz | All Rights Reserved.")
 )
 
 server <- function(input, output, session) {
